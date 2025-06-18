@@ -1,0 +1,21 @@
+Bent Fingers,Gesture Meaning,Notes (Side View)
+Thumb,Hello,Thumb only bent (side: 👍)
+Index,Thank You,Pointing gesture
+Middle,Sorry,Middle only bent
+Ring,Welcome,Ring only bent
+Little,Fine,Pinky bent (gesture for 'me too')
+Thumb + Index,Please,Pinch shape
+Middle + Ring,Nice,Central bent fingers
+Ring + Little,No,Right-side two fingers
+Index + Middle,Yes,Two front fingers bent
+Thumb + Index + Middle,Good,3 front fingers bent
+Index + Middle + Ring,What,Mid-finger group
+Middle + Ring + Little,Love,Side curve shape
+All except Thumb,How are you,"Four bent, thumb open (side)"
+All except Little,Where,"Four bent, pinky free"
+All Bent,Good Morning,Fist-like gesture
+None Bent + ax > 15000,Stop,Raise hand gesture (motion-based)
+None Bent + ay > 15000,Come,Forward tilt gesture
+None Bent + az > 15000,Go,Downward push gesture
+None Bent + az < -15000,Back,Pull-back gesture
+None Bent + No movement,Neutral,Rest hand
