@@ -31,21 +31,13 @@ A wearable assistive device that helps bridge communication gaps for the hearing
 1. **Gesture Input**: User performs a hand gesture representing a sign.
 2. **Sensor Data Collection**: MPU6050 and flex sensors measure hand orientation and finger bend angles.
 3. **Data Transmission**: Arduino reads sensor values and sends them over USB.
-4. **Recognition**: A machine learning model running on a PC classifies the gesture.
+4. **Recognition**: A model running on a PC classifies the gesture.
 5. **Output**: The corresponding word or character is:
    - Displayed on the screen
    - Spoken aloud using a TTS engine
 
 ---
 
-## Machine Learning Model
-
-- **Input**: Sensor values from MPU6050 and flex sensors
-- **Model**: Trained using Scikit-learn (e.g., Random Forest, SVM)
-- **Training**: Custom dataset collected from multiple samples per gesture
-- **Accuracy**: Dependent on dataset quality and number of gestures
-
----
 
 ## Installation & Setup
 
